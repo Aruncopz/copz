@@ -1,0 +1,37 @@
+                                                          
+                                                               23/03/22-wednesday
+                                                          
+                                                          
+       This is my 2nd day of my session.I will learn new things today session.I will learn types of GUI's & somthing about computer networking and then solving the 
+   problem and understand how to solve the problem.Today i will learn how to solve the problrm & then how to handle the problrm.More number of topic covered 
+   by kowshik.The problemsolving method solved by four ways,
+                                *Understanding the problem.
+                                *Write down all the constraints.
+                                *List out the operations.
+                                *Arrange the operation & satisfying the constraints.
+    
+            The next topic is Different types of GUI's.The types are,
+                                * KDE
+                                * GNOME
+                                * XFCE
+                                * LXDE
+                                * MATE.
+
+      1) KDE;
+               It is a desktop environment for Linux based operation system.KDE has proved Linux users to make it use as easy as they use windows. KDE provides Linux
+   users a graphical interface to choose their own customized desktop environment.
+
+      2) GNOME;
+               GNOME Software is a utility for installing applications and updates on Linux. It is part of the GNOME Core Applications, and was introduced in GNOME 
+   3.10. It is the GNOME front-end to the PackageKit, in turn a front-end to several package management systems, which include systems based on both RPM and DEB.
+
+      3)XFCE;
+               XFCE is a free and open-source desktop environment for Linux and Unix-like operating systems. Xfce aims to be fast and lightweight while still being 
+   visually appealing and easy to use. Xfce embodies the traditional Unix philosophy of modularity and re-usability.
+      
+      4)LXDE;
+               LXDE is a free desktop environment with comparatively low resource requirements. This makes it especially suitable for use on older or 
+   resource-constrained personal computers such as netbooks or system on a chip computers.
+
+      5)MATE;
+               MATE is a desktop environment composed of free and open-source software that runs on Linux, BSD, and illumos operating systems.
