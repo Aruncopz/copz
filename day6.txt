@@ -1,0 +1,42 @@
+                                                                       29/03/22-Tuesday
+     This is my 6th day session.I will learn Propositional statement, Propositional logic ,Variables&connectives & html.In logic and philosophy, a propositional
+  statement is a sentence or expression that is either true or false.A statement is propositional because it makes a proposition about the  world; 
+  that is, it asserts a truth.Ex;“if the moon is made of cheese then basketballs are round,” and “if spiders have eight legs then Sam walks with a limp” are 
+  exactly the same.Propositional logic, also known as sentential logic and statement logic, is the branch of logic that studies ways of joining and/or 
+  modifying entire propositions, statements or sentences to form more complicated propositions, statements or sentences, as well as the logical relationships 
+  and properties that are derived.A proposition is a statement that can be either true or false; it must be one or the other, and it cannot be both.
+  Ex; the reactor is on; – the wing-flaps are up; – John Major is prime minister.Variables and connectives types Logical Not , Logical AND & Logical OR.
+  The logical NOT operator (logical complement, negation) takes truth to falsity and vice versa. It is typically used with boolean (logical) values. When used 
+  with non-Boolean values, it returns false if its single operand can be converted to true ; otherwise, returns true .Logical AND; ex: p; All the squares are 
+  rectangle. q; Triangle has 3 sides. Logical OR a logical proposition is any proposition that can be reduced by replacement of its constituent terms to a 
+  proposition expressing a logical truth.HTML, in full hypertext markup language, a formatting system for displaying material retrieved over the Internet.
+  Each retrieval unit is known as a Web page, and such pages frequently contain hypertext links that allow related pages to be retrieved.Text-based approach 
+  to describing how content contained within an HTML file is structured.
+  HTML Basic code;
+                <html> 	 HTML document
+                <head> 	 metadata/information for the document
+                <title>  title for the document
+                <body> 	 the document's body
+                <h1> to <h6>  HTML headings
+                <p> 	  paragraph
+                <br> 	  single line break
+                <hr> 	  thematic change in the content
+                <!--...--> comment.
+      Propositions in philosophy;
+             In philosophy, "meaning" is understood to be a non-linguistic entity which is shared by all sentences with the same meaning. Equivalently, 
+  a proposition is the non-linguistic bearer of truth or falsity which makes any sentence that expresses it either true or false.
+ 
+     Proposition is a declarative statement that is either true or false but not both. Connectives are used to combine thepropositions. 
+  The disjunction of P and Q is theproposition 'P or Q'. This new proposition is true when P is true, or Q is true, or both.
+
+   There are five types in propositional logic:
+
+                * Negations.
+                * Conjunctions.
+                * Disjunctions.
+                * Conditionals.
+                * Biconditionals.
+
+    The truth-value of a compound statement can readily be tested by means of a chart known as a truth table. Each row of the table represents a possible 
+   combination of truth-values for the component propositions of the compound, and the number of rows is determined by the number of possible combinations. 
+   For example, if the compound contains just two component propositions, there will be four possibilities and thus four rows to the table. 
