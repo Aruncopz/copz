@@ -1,0 +1,38 @@
+                                                                       30/3/22-Wednesday
+     This is 7th day session at surfboard.Today i will learn propositional truth tables for Logic AND, Logic OR &  Logic NOT & Logic Implication & Logic 
+ Biconditional& Server & types of server hardware & Gaming PC.Propositional logic, also known as sentential logic, is that branch of logic that studies ways 
+ of combining or altering statements or propositions to form more complicated statements or propositions. Logic Implication is a type of relationship between 
+ two statements or sentences. The relation translates verbally into "logically implies" or "if/then" and is symbolized by a double-lined arrow pointing toward 
+ the right.The definition of implication is something that is inferred. An example of implication is the policeman connecting a person to a crime even though 
+ there is no evidence.Logic Biconditional is a logic statement that includes the phrase, "if and only if," sometimes abbreviated as "iff." The logical 
+ biconditional comes in several different forms: p iff q. p if and only if q. Ex;The polygon has only four sides if and only if the polygon is a quadrilateral. 
+ The polygon is a quadrilateral if and only if the polygon has only four sides. The quadrilateral has four congruent sides and angles if and only if the 
+ quadrilateral is a square.I will learn how to use git div comment.This element is used to add a comment to an HTML document. An HTML comment begins with 
+ <! –– and the comment closes with ––> . HTML comments are visible to anyone that views the page source code, but are not rendered when the HTML document is 
+ rendered by a browser.Use the textContent property to get the text of a div element, e.g. const result = element. textContent . The textContent property will
+ return the text content of the div and its descendants. If the element is empty, an empty string is returned.In this element used to develop lenth,width&
+ background color changing.A server is a computer program or device that provides a service to another computer program and its user, also known as the client. 
+ In a data center, the physical computer that a server program runs on is also frequently referred to as a server.Servers are computers that run services to 
+ serve the needs of other computers. There are, for example, home media servers, web servers, and print servers. There are also file servers and database servers.
+ Types of server hardware is tower,blade& rack sever.A tower server is a computer intended for use as a server and built in an upright cabinet that stands alone.
+ The cabinet, called a tower, is similar in size and shape to the cabinet for a tower-style personal computer. This is in contrast to rack server s or blade 
+ server s, which are designed to be rack-mounted .Server rack cabinet, it is enclosed to ensure security. Server racks are most commonly found in data center 
+ environments, but can also be used in smaller computer closets. The 19-inch server rack is the standardized size frame or enclosure for mounting equipment, 
+ and is used for computer server equipment.In general, a blade server consists of a chassis, or box-like structure, housing multiple thin, modular electronic 
+ circuit boards, known as server blades. They are called blades because of their ultra-thin shape. Each blade contains a single server, often dedicated to a 
+ single application.Each server is designated to play a specific role. However, the main job of a server is to receive, store, and send data within a network.
+ The function of a server is to receive, store, and share data. Some of the most common types of servers include web servers, print servers, file servers, 
+ mail servers, application servers.A web server is a computer that runs websites. It's a computer program that distributes web pages as they are requisitioned. 
+ The basic objective of the web server is to store, process and deliver web pages to the users. This intercommunication is done using Hypertext Transfer Protocol 
+ (HTTP).A mail server is a computer system that sends and receives email. In many cases, web servers and mail servers are combined in a single machine. However, 
+ large ISPs and public email services may use dedicated hardware for sending and receiving email.A file server is a computer responsible for the storage and 
+ management of data files so that other computers on the same network can access the files. It enables users to share information over a network without having 
+ to physically transfer files.An application server is a modern form of platform middleware. It is system software that resides between the operating system 
+ (OS) on one side, the external resources on another side and the users' applications on the third side.A proxy server is a computer system or router that 
+ functions as a relay between client and server. It helps prevent an attacker from invading a private network and is one of several tools used to build a 
+ firewall. The word proxy means "to act on behalf of another," and a proxy server acts on behalf of the user.Gaming PC is  high-end Windows PC that is suited 
+ for gaming. Although available ready built, gaming PCs are often custom made for the serious enthusiast. They have as much as 32GB of RAM and the fastest CPU 
+ and GPU chips that are generally no more than one generation behind.
+
+
+
