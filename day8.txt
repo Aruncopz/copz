@@ -1,0 +1,34 @@
+                                                          31/3/22-Thursday
+ This is my 8th day in surfboard. Today i will learn git margin& padding,Gaming pc & hardware & algorithem& professional pc.An element's padding area is the
+ space between its content and its border. Note: Padding creates extra space within an element. In contrast, margin creates extra space around an element.
+ The margin property sets or returns the margins of an element. This property can take from one to four values: One value, like: div {margin: 50px} - all 
+ four margins will be 50px. Two values, like: div {margin: 50px 10px} - the top and bottom margins will be 50px, left and right margins will be 10px. A 
+ high-end Windows PC that is suited for gaming. Although available ready built, gaming PCs are often custom made for the serious enthusiast. They have as much 
+ as 32GB of RAM and the fastest CPU and GPU chips that are generally no more than one generation behind.Types of hardware is CPU,GPU,Motherboard,Memory,System 
+ cooling,Operating system.A machine running an Intel® Core™ i7 processor or better with at least 8GB of RAM is sufficient for playing games and streaming at 
+ the same time. If you're hoping for less impact on your gaming performance, an Intel® Core™ i9 processor makes for an even smoother experience. NVIDIA GT 
+ graphics card is built for standard use, while a GTX graphics card is built for high-end gaming. Numbered series: This indicates how new the GPU is. For 
+ Motherboards do not directly influence your gaming performance at all. What your motherboard type will do, is allow your graphics card and processor to 
+ perform better (or worse). It's sort of similar to a Solid State Drive's impact on FPS.example, the 30 series is newer than the 20 series.RAM 
+ (random access memory) is a key component in any gaming PC. Adding more RAM can boost system responsiveness and improve frame rates when compared to systems 
+ with less memory.Liquid cooling takes up less space than fans. A traditional air-cooled system relies on a series of fans cooling various components within 
+ Windows 10 is the latest version of Microsoft Windows. As such, it is a much-improved iteration of the OS that brings together a few unique aspects. For 
+ example, PC players can fully integrate games with Xbox LIVE, have full controller support, and more. Windows 10 is perfect for those new to PCs and PC gaming.
+ the gaming PC case.If you've calculated that your system is going to use 500 watts (a common number for a straightforward gaming build), choosing a PSU with 
+ 600 or 650-watt output could be a good option, as it will give you some overhead to work with, and also allow for potential future upgrades.
+      A programming algorithm is a procedure or formula used for solving a problem. It is based on conducting a sequence of specified actions in which these 
+ actions describe how to do something, and your computer will do it exactly that way every time. An algorithm works by following a procedure, made up of inputs.
+     
+     Workstations are desktop PCs designed to handle demanding workflows such as data science, 3D design, video editing, and engineering.workstation, a 
+ high-performance computer system that is basically designed for a single user and has advanced graphics capabilities, large storage capacity, and a powerful 
+ central processing unit.LED monitors are the latest types of monitors on the market today. These are flat panel, or slightly curved displays which make use of 
+ light-emitting diodes for back-lighting, instead of cold cathode fluorescent (CCFL) back-lighting used in LCDs.workstation, a high-performance computer 
+ system that is basically designed for a single user and has advanced graphics capabilities, large storage capacity, and a powerful central processing unit.
+ There are two main types of RAM: Dynamic RAM (DRAM) and Static RAM (SRAM). DRAM (pronounced DEE-RAM), is widely used as a computer's main memory.Read-Only 
+ Memory (ROM) is storage technology that permanently stores data in a chip built into computers and other electronic devices. ROM includes the most basic 
+ programming needed to start a computer, often referred to as Basic Input/Output System (BIOS).Modern personal computers universally use switched-mode power 
+ supplies. Some power supplies have a manual switch for selecting input voltage, while others automatically adapt to the mains voltage.There are three different
+ kinds of hard drives: SATA, SSD and NVMe. In this article, you'll learn about each type and what their strengths and weaknesses are. Whether you are 
+ considering buying or building a new PC or upgrading your current one, this should help you choose one over the others.There are three main types of optical 
+ media: CD, DVD, and Blu-ray disc. CDs can store up to 700 MB (megabytes) of data, and DVDs can store up to 8.4 GB (gigabytes) of data. Blu-ray discs, which are 
+ the newest type of optical media, can store up to 50 GB of data. 
