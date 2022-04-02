@@ -1,0 +1,59 @@
+                                                                   1/04/22-Friday
+    This is my 9th day in surfboard intern. Today i will learn Internal css,External css,Workstation pc & Obsession& How to make presentation .An internal CSS 
+ is used to define a style for a single HTML page. An internal CSS is defined in the <head> section of an HTML page, within a <style> element.Internal CSS 
+ stylesheets by placing the <style> element in the <head> section of a page. Internal styles apply to whole pages but not to multiple HTML documents. Several 
+ pages can be styled b repeating the same block of internal styles in them.
+     The external style sheet is generally used when you want to make changes on multiple pages. It is ideal for this condition because it facilitates you to 
+ change the look of the entire web site by changing just one file. It uses the <link> tag on every pages and the <link> tag should be put inside the head section.
+ External CSS: External CSS contains separate CSS file which contains only style property with the help of tag attributes (For example class, id, heading, … etc). 
+ CSS property written in a separate file with . css extension and should be linked to the HTML document using link tag.
+
+Obsession:
+       1 : a persistent disturbing preoccupation with an often unreasonable idea or feeling broadly : compelling motivation an obsession with profits has 
+   an obsession with gambling. 
+       2 : something that causes an obsession Losing weight can be an obsession that results in the avoidance of certain foods.
+      
+    Love is a feeling from the heart, and obsession can be termed as a crazy feeling. Though love and obsession are related in some aspects, the two can never 
+ be thought to be the same. Love is a feeling that is uncontrollable, and a feeling which one has for another person.
+
+ Workstation pc:
+         workstation, a high-performance computer system that is basically designed for a single user and has advanced graphics capabilities, large storage 
+ capacity, and a powerful central processing unit.Image result for workstation computer. Examples of RISC workstations
+
+                                       * Silicon Graphics IRIX machines (MIPS CPU)  
+                                       * Sun Microsystems SparcStation (SPARC CPU)
+                                       * Apple Power Mac G5 and PowerBook G4 (PowerPC CPU)
+                                       * IBM IntelliStation POWER and ThinkPad Power Series (PowerPC CPU)
+ Workstation pc configuration:
+              - AMD Ryzen7 1800x (cpu)
+              - DDR4
+              - Nivdia titan v(gpu)
+              - 450 w
+              - Water cooling(liminus water cooling)
+              - Intel x-25 (ssd) 
+              - Window 10.
+ 
+ How to select best process of server:
+    clock speed;
+        Clock speed is measured in gigahertz (GHz). The higher the number, the faster the clock speed. To run applications, the processor of your server should 
+ be able to complete the calculations continuously. The higher the clock speed, the faster the processor will calculate and that too very smoothly. The clock 
+ speed along with the bit width conveys us that in a single second how much data can flow. If a processor has a speed of 2.92 GHz and the bit width of 32 bits, 
+ then it means that it can process almost 3 billion units of 32 bits of data per second. This means even if you are running heavy applications with such a 
+ faster clock speed you will get good responsiveness.
+  
+    Core:
+      a processor having one core means, you can run only one application at a time. Obviously, with multiple cores, you can process multiple applications at a
+  time, as it divides the work into multiple units. If by chance, one of the core freezes because of a running application, you still can continue your work with 
+  other cores while you figure out the issue. Or to free up the core, you can close the running application.
+
+   Thread:
+       Threads are similar to the number of cores. Sometimes going through the spec-sheet, we come across words like “Processor has multithreading capability,” 
+  it means it allows a single core to create dual threads.
+
+   Cache:
+      A cache is used by the processor to speed up the access to instructions and data between the processor and the RAM. There are three types of cache you will come across while looking at the specification sheet:
+
+  *  L1 – Is the fastest, but cramped
+  *  L2 – Is roomier, but slower
+  *  L3 – Is Spacious, but comparatively slower than above two.
+
