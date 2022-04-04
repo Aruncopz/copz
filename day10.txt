@@ -1,0 +1,53 @@
+                                                                      DAY10-MONDAY
+       Today i will learn how to make presentation, algorithem ,arithmatic & boolean & motherboard slots function.A compelling introduction. Your introduction
+  needs to briefly sum up what you're going to talk about and why it's useful or relevant to your audience.
+  An arithmetic operation is specified by combining operands with one arithmetic operator. Arithmetic operations can also be specified by the ADD, SUBTRACT, 
+  DIVIDE, and MULTIPLY built-in functions.
+                               Addition 	+ 	Adds one operand to the other
+                               Subtraction 	- 	Subtracts the second operand from the first
+                               Multiplication 	* 	Multiplies one operand by the other
+                               Division 	/ 	Divides the first operand by the second
+                               Modulo 	        % 	Divides the first INTEGER operand by the second, and returns the remainder
+                               Exponentiation 	** 	Lets you refer to a number in terms of a base value and an exponent.
+     Boolean Operators are simple words (AND, OR, NOT or AND NOT) used as conjunctions to combine or exclude keywords in a search, resulting in more focused and 
+  productive results. This should save time and effort by eliminating inappropriate hits that must be scanned before discarding.
+                              AND. AND will narrow your search results to include only relevant results that contain your required keywords. ...
+                              OR. 
+                              NOT. 
+                              Quotation Marks “ “
+                              Parentheses ( )  
+     An algorithm is a set of instructions for solving a problem or accomplishing a task. One common example of an algorithm is a recipe, which consists of 
+  specific instructions for preparing a dish or meal.
+     There are three basic constructs in an algorithm:
+            Linear Sequence: is progression of tasks or statements that follow one after the other.
+            Conditional: IF-THEN-ELSE is decision that is made between two course of actions.
+            Loop: WHILE and FOR are sequences of statements that are repeated a number of times.
+   Motherboard slots;
+     1. Keyboard and mouse
+          There are mainly 2 types of mouse and keyboard connectors. The first connector is known as PS/2 & the second connector is known as USB.
+     2. Universal Serial Bus (USB)
+          The USB port is used for connecting the computer system. In the computer system, there is various type of devices that are connected with the USB port 
+  like keyboard, mouse, camera, scanner, printers, and another device. The main use of a USB port is to connect the peripheral devices and computer motherboards. 
+  The peripheral device connected to the computer system can be inserted or remove without system restarts that can be the main advantage of a USB port.
+     3. CPU chip
+          The central processing unit is the processor that controls all the functions of the computer system. The overall flow of task and functions are 
+  controlled by the central processing unit. For the computer system, the central processing unit is called the brain of the computer system.
+     4. RAM slots
+          The RAM slots are used for connecting the RAM (memory) in the computer system. In the general computer system, there are mainly two RAM slots but 
+  sometimes there can be four-plus slots in the motherboard to increase the memory of the computer system.
+     5. Floppy Controller
+          The older motherboard chip contains a 34-pin type ribbon cable for connecting the computer system with a floppy drive. In this ribbon cable, one end 
+  is directly connected with the computer system and one end is connected with the motherboard.
+     6. IDE controller
+          The integrated drive electronics are also known as ATA or Parallel ATA. The IDE is the type of component that issued for hard drive control. In 
+  today’s computer system, the IDE controller supports is not supported.
+     7. ISA slot
+          Industry-standard architecture (ISA) is defined as standard architecture for expansion bus. The ISA slot issued for connecting input devices and modems.
+     8. CMOS Battery
+          The CMOS battery is used for storing the BIOS settings on the motherboard. The CMOS battery is also capable of storing the time and data in it.
+     9. CPU slot
+          The CPU slot is a type of port that is used to connect the central processing unit to the motherboard of the computer system.
+    10. Power supply slot
+          The power supply slot is used for providing the electric supply to the computer system so that it can start and perform its functions. The total power 
+   supply given to the system is around 110 ac power. In the power supply type connector, there are a total of 20-pins that are used to maintain the power 
+   supply to the computer system.
