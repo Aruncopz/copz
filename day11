@@ -1,0 +1,43 @@
+                                                                      DAY11-TUESDAY
+       Today i will learn how to make presentation, how to present, then how to install packet tracer & CCNA. The way of presentation is Keep Your Slides Simple.
+  Limit Words on Your Slides.Use High-Quality Photos and Graphics.Use Accurate and Relevant Charts and Graphs.Use High-Quality, Fresh Templates.Choose Appropriate 
+  Fonts.Choose Color Well.Clean + Simple Formatting Makes All the Difference.The main thing in presentation is introduction, the body, and the conclusion.Your 
+  introduction needs to briefly sum up what you're going to talk about and why it's useful or relevant to your audience.How to present confidently talk positively 
+  to yourself. Claim your success before you begin, Price says.Use the restroom.Strike a power pose. Exercise lightly.Take several deep belly breaths.Don't 
+  pretend you're not nervous.Reframe your nervousness as excitement.Focus on giving.My presentation feedback is make it clear, short slide size, eye contact,
+  fearness. How to install packet tracer steps are,
+         1)  yum  install epel-release
+         System Should be fully updated
+         2) # yum update -y
+         Install the Required Dependencies
+         3) # yum install zlib-devel ncurses-devel gtk2 glibc glibc-devel libstdc++ libX11-devel libXrender libXrandr libusb libXtst nss qt qtwebkit
+         Dwonload the Packet Tracer and Openssl-lib Rpm
+         4)  git clone https://github.com/AOSL/PACKETTRACER_CENTOS7.git
+         Type the Comnmand to install the package
+         5) # cd PACKETTRACER_CENTOS7
+            #wget http://bt0.ninja/rpm/openssl-lib-compat-1.0.0i-1.fc24.x86_64.rpm
+            # rpm -Uvh openssl-lib-compat-1.0.0i-1.fc24.x86_64.rpm
+          
+            # cd PacketTracer70/
+            #chmod u+x install
+            # ./install
+         Accept the Eula and just press enter when ask for installation.
+   
+     CCNA;
+        The CCNA is an entry-level networking certification that can prepare you for networking roles in IT like network specialist, network administrator, 
+   and network engineer.
+
+     CCNA ROUTING & SWITCHING;
+           The CCNA Routing and Switching validates the ability to install, configure, operate, and troubleshoot medium-size routed and switched networks.The 
+   difficulty stems from the fact that the new CCNA covers modern network fundamentals end-to-end.outing refers to determining how an application responds to a
+   client request to a particular endpoint, which is a URI  and a specific HTTP request method .Each route can have one or more handler functions, which are 
+   excuted when the route is matched.Issues in routing Mobility Bandwidth constraint Error prone shared broadcast radio channel hidden and exposed terminal 
+   problems Resource Constraints. Mobility highly dynamic frequent path breaks frequent topology changes.A switch manages the flow of data across a network by 
+   inspecting the incoming frame's destination MAC address and forwarding the frame only to the host for which the data was intended.Three basic functins of a 
+   switch are Learning, Forwarding and Preventing Layer 2 Loops.In various types of network environments (MAN/ WAN), the router works faster whereas Switch is 
+   faster than a Router in a LAN environment.these associate-level certifications will all be enfolded into the new CCNA and will go away, except CCNA Routing 
+   and Switching, which becomes simply CCNA. There has also been word about "badges" that will be issued related to courses taken or exams passed.
+            
+     Presentation;
+           Presentation is one of the best way to improve your communication skills& your quality & your skills & test your memory power.  
+     presentation is a way of communicating your thoughts and ideas to an audience and many of our articles on communication.

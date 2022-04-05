@@ -1,0 +1,60 @@
+                                                                           25/03/2022- Friday
+          This is my 4th day. I will learn  git installation , protocals , binary ,decimal, octal, hexa & Binary coded decimal systems.Git (/ɡɪt/)[7] is 
+   software for tracking changes in any set of files, usually used for coordinating work among programmers collaboratively developing source code during 
+   software development. Its goals include speed, data integrity, and support for distributed, non-linear workflows.The comments are 
+                               *yum install git
+                               *git --version
+                               *git init
+                               *git add sometext.txt
+                               *git add sometext
+                               *git commit-m"Daily assignment"
+   Protocal;
+        A desigh of protocal design rules and conventions for communication between network devices. Protocal  specify interactions between the communicating
+   entities.
+
+   Tyeps of protocals;
+         * Transmission control protocal
+         * Internet protocal
+         * Hyper text transfer protocal
+         * File transfer protocal
+         * Hyper text transfer protocal secure
+
+   Transmission control protocal;
+        It ensures that message sent from sender to receiver or properly rooted and arrive at the destination. TCP convert message into a set of package at the source
+   which are then assemble back into message at the destination.For this ,TCS operates with the pocket switching techniques.The message divided into small pockets.
+   Each pocket contains address & information. The address used to root the  pocket to its destination.
+
+   Internet protocal;
+        IP different computers to communicate. IP handles dispatch of the pockets over the network.It handles the addressing of pockets and ensure that the 
+   pocket  reaches its destination travelling through multiple networks.
+ 
+              *IPv4
+              *IPv6
+   
+   IPv4;
+      An IPv4 address consists of four bytes(32 bits). These bytes are also known as octets.Ex : 234.5.67.190.086.Each sub area can vary from 000 to  225.
+   0.0.0.0 through 255.255.255.255. Total of 32 bits. 2 power 32 4 billion addresses.
+  
+   IPv6;
+      IPv6 address are 16bytes(128 bits) long.  2power128 unique addresses. Each bytes in turns is represents as a pair of hexadecimal numbers.
+
+   Binary;
+      1 : consisting of two things or parts 2 : relating to, being, or belonging to a number system having 2 as its base 3 : involving a choice between or condition
+   of two alternatives only.
+
+   Decimal;
+      Decimal is a term that describes the base-10 number system, probably the most commonly used number system. The decimal number system consists of ten 
+   single- digit numbers: 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9. 
+
+   Octal;
+      Octal Number System has a base of eight and uses the number from 0 to 7. The octal numbers, in the number system, are usually represented by binary numbers
+    when they are grouped in pairs of three.
+
+   Hexa decimal;
+      Hexadecimal is the name of the numbering system that is base 16. This system, therefore, has numerals 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, and 15.
+    That means that two-digit decimal numbers 10, 11, 12, 13, 14, and 15 must be represented by a single numeral to exist in this numbering system. 
+  
+   Binary coded  decimal;
+     Binary coded decimal (BCD) is a system of writing numerals that assigns a four-digit binary code to each digit 0 through 9 in a decimal (base-10) numeral.
+   The four-bit BCD code for any particular single base-10 digit is its representation in binary notation.
+
