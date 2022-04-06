@@ -1,0 +1,28 @@
+                                                         Day12-Wednesday
+     Today i will learn types of routers & switches & ascii & utf & utf-8 & string.Data is information that has been translated into a form 
+ that is efficient for movement.The statistical data is broadly divided into numerical data, categorical data, and original data.All the 
+ the data, string, numbers are converted into the binary words.The programming system made for humans.The computer only identify the binary
+ number system.ASCII, abbreviation of American Standard Code For Information Interchange, a standard data-transmission code that is used by 
+ smaller and less-powerful computers to represent both textual data (letters, numbers, and punctuation marks) and non input-device commands 
+ (control characters).ASCII is used as a method to give all computers the same language, allowing them to share documents and files.The 
+ Unicode Transformation Format (UTF) is a character encoding format which is able to encode all of the possible character code points in 
+ Unicode.You cannot encode different parts of a document in different encodings. A Unicode-based encoding such as UTF-8 can support many 
+ languages and can accommodate pages and forms in any mixture of those languages.UTF-8 (UCS Transformation Format 8) is the World Wide Web's 
+ most common character encoding. Each character is represented by one to four bytes. UTF-8 is the most widely used way to represent Unicode 
+ text in web pages, and you should always use UTF-8 when creating your web pages and databases.programming languages have a data type called 
+ a string, which is used for data values that are made up of ordered sequences of characters, such as "hello world".A router is a networking 
+ device that forwards data packets between computer networks. Routers perform the traffic directing functions on the Internet.A wired router 
+ connects directly to computers through wired connections. They usually have a port that connects to the modem to communicate with the internet. 
+ Another port allows the wired router to connect to computers and other devices to distribute information.A wireless router is a 
+ device in a wireless local area network (WLAN) that determines the next network point to which a packet should be forwarded toward its 
+ destination.A core router is a computer communication system device and a network's backbone, the device linking all network devices. 
+ It provides multiple fast data communication interfaces. The word "core" refers to a network's overall physical structure.edge router is a 
+ specialized router located at a network boundary that enables an internal network to connect to external networks. They are primarily used 
+ at two demarcation points: the wide area network and the internet.VPN router is a type of routing device that is designed specifically to 
+ enable network communications within a VPN environment. It primarily enables connecting and communicating between multiple VPN end devices, 
+ usually present in separate locations.A switch is a device in a computer network that connects other devices together. Multiple data cables 
+ are plugged into a switch to enable communication between different networked devices.KVM stands for Keyboard Video Mouse and KVM switches 
+ allow you to switch the use of a keyboard, display and mouse between multiple computers. KVM switches also commonly let you switch audio 
+ and USB devices between computers.A managed network switch is a technology that connects multiple devices together on a single Local Area 
+ Network (LAN). A managed network switch uses packet switching to filter and forward data to specific devices, while also providing 
+ administrators with the ability to configure, manage and monitor a LAN. 
