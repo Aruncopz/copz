@@ -1,0 +1,32 @@
+                                                             Day13-Tuesday
+       Today I am learning about primitive function,list,array,null,number,boolean,operation&function and then symbols,words,expression& 
+ Grammar,router protocal in ccna, RIP V2,IGRP,EIGRP,OSPF & BGP.In computer programming, a primitive is a basic interface or segment of code 
+ that can be used to build more sophisticated program elements.Examples of primitive data types include integers, floating point numbers and 
+ individual characters in text.List is the most versatile data type available in functional programming languages used to store a collection 
+ of similar data items.An array is a group of same data types. For example an int array holds the elements of int types while a float array 
+ holds the elements of float types.Null is a built-in constant that has a value of zero. It is the same as the character 0 used to terminate 
+ strings in C.Most programming languages make a distinction between whole numbers and decimal numbers. This distinction is based on how they 
+ are represented inside the machine. Integers are whole numbers represented as binary values.Boolean is a logical data type that can have only 
+ the values true or false .An operation, in mathematics and computer science, is an action that is carried out to accomplish a given task. 
+ The function contains instructions used to create the output from its input.For example, programming functions might take as input any 
+ integer or number.
+        A symbol is a person, place, action, word, or thing that ( association, or convention) represents something other than itself.A symbol 
+ is a mark, sign, or word that indicates, signifies, or is understood as representing an idea, object, or relationship. A word is a single 
+ unit of language that can be represented in writing or speech.All words belong to categories called word classes according to the part they 
+ play in a sentence. Token is a sign, symbol or a piece of stamped metal used instead of currency. An example of a token is someone giving 
+ their friend a "best friends" necklace.Definition of an example of expression is a frequently used word or phrase or it is a way to convey 
+ your thoughts, feelings or emotions.Expression a word, phrase, or sentence. Fixed expression, a form of words with a specific meaning.Grammar, 
+ rules of a language governing the sounds, words, sentences, and other elements, as well as their combination and interpretation. The word 
+ grammar also denotes the study of these abstract features or a book presenting these rules.There are two kinds of grammar: prescriptive 
+ grammar & descriptive grammar. 1. Prescriptive Grammar: It is the traditional approach of grammar that tells people how to use the English 
+ language, what forms they should utilize, and what functions they should serve.Syntax is the order or arrangement of words and phrases to 
+ form proper sentences. The most basic syntax follows a subject + verb + direct object.Syntax, the arrangement of words in sentences, clauses, 
+ and phrases, and the study of the formation of sentences and the relationship of their component parts.
+        Both versions of RIP, RIPv1 and RIPv2, are Distance Vector Routing Protocols that use router hop counts as their metrics. They 
+ support a maximum hop count value of 15. Any router farther than 15 hops away is considered to be unreachable.IGRP is a distance-vector 
+ interior gateway protocol (IGP). Distance-vector routing protocols call for each router to send all or a portion of its routing table in 
+ a routingupdate message at regular intervals to each of its neighboring routers.Open Shortest Path First (OSPF) is a link-state routing 
+ protocol that was developed for IP networks and is based on the Shortest Path First (SPF) algorithm. OSPF is an Interior Gateway Protocol.
+ Enhanced Interior Gateway Routing Protocol (EIGRP) is a network protocol that enables routers to exchange information more efficiently than 
+ earlier network protocols, such as Interior Gateway Routing Protocol.Border Gateway Protocol (BGP) is an exterior gateway protocol designed 
+ to exchange routing and reachability information among autonomous systems (AS) on the Internet.         
