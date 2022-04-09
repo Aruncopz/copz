@@ -1,0 +1,94 @@
+                                                               Day14- Friday
+     Today I am learning about what is ip address & classes,subnet,Dart language,dart function, language.Dart is a client-optimized language 
+ for developing fast apps on any platform. Its goal is to offer the most productive programming language for multi-platform development, 
+ paired with a flexible execution runtime platform for app frameworks.
+   Dart function:
+   return_type function_name ( parameters ) 
+   {
+   // Body of function
+   return value;
+   }
+ Ex:
+   int add(int a, int b)
+{
+    int result = a + b;
+    return result;
+}
+ 
+void main()
+{
+    var output = add(10, 20);
+    print(output);
+}
+
+Output-30
+
+ Dart Function with parameter and return value:
+
+    void main() {
+    print("Example of add two number using the function");
+    // Creating a Function.
+    int sum(int a, int b){
+    // function Body.
+    int result;
+    result = a+b;
+    return result;
+
+  The computer language is defined as code or syntax which is used to write programs or any specific applications. The computer language is 
+ used to communicate with computers.composition is an act or mechanism to combine simple functions to build more complicated ones. Like the 
+ usual composition of functions in mathematics, the result of each function is passed as the argument of the next, and the result of the last 
+ one is the result of the whole.
+ 
+ IP ADDRESS:
+         IP address or Internet Protocol address, is a series of numbers that identifies any device on a network. Computers use IP addresses 
+ to communicate with each other both over the internet as well as on other networks.IP address is, as such, generally shown as 4 octets of 
+ numbers from 0-255 represented in decimal form instead of binary form.Ip address classes,
+            1) Class A
+            2) Class B
+            3) Class C
+            4) Class D
+            5) Class E
+ 
+    Class A:
+      IP address belonging to class A are assigned to the networks that contain a large number of hosts.
+                     1)The network ID is 8 bits long.
+                     2)The host ID is 24 bits long.
+      The higher order bit of the first octet in class A is always set to 0. The remaining 7 bits in first octet are used to determine 
+  network ID. The 24 bits of host ID are used to determine the host in any network.
+  	            *1.0.0.1 to 126.255.255.254 	
+                    *Supports 16 million hosts on each of 127 networks.
+
+    Class B:
+      IP address belonging to class B are assigned to the networks that ranges from medium-sized to large-sized networks.
+                       1)The network ID is 16 bits long.
+                       2)The host ID is 16 bits long.
+     The higher order bits of the first octet of IP addresses of class B are always set to 10. The remaining 14 bits are used to determine 
+  network ID. The 16 bits of host ID is used to determine the host in any network.
+                     *128.1.0.1 to 191.255.255.254 	
+                     *Supports 65,000 hosts on each of 16,000 networks.
+  
+    Class C:
+      IP address belonging to class C are assigned to small-sized networks.
+                      1) The network ID is 24 bits long.
+                      2) The host ID is 8 bits long.
+     The higher order bits of the first octet of IP addresses of class C are always set to 110. The remaining 21 bits are used to determine 
+  network ID. The 8 bits of host ID is used to determine the host in any network.
+                      *192.0.1.1 to 223.255.254.254 	
+                      *Supports 254 hosts on each of 2 million networks.
+
+    Class D:
+      IP address belonging to class D are reserved for multi-casting. The higher order bits of the first octet of IP addresses belonging to 
+  class D are always set to 1110.
+                      *224.0.0.0 to 239.255.255.255 	
+                      *Reserved for multicast groups.
+
+    Class E:
+      IP addresses belonging to class E are reserved for experimental and research purposes. 
+                      *240.0.0.0 to 254.255.255.254 	
+                      *Reserved for future use, or research and development purposes.
+      
+  Subnet mask:
+      A subnet, or subnetwork, is a network inside a network. Subnets make networks more efficient. Through subnetting, network traffic can
+   travel a shorter distance without passing through unnecessary routers to reach its destination.Subnet calculating steps
+   The number of subnets is found by counting the number of bits by which the initial mask was extended, also known as the subnet bits. 
+        
