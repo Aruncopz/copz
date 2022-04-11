@@ -1,0 +1,120 @@
+                                                            Day15-Monday
+  Today I am learning about Subnet calculating,Array,How to create login page using HTML & Friendship & Being friendly.An array is a 
+ collection of similar data elements stored at contiguous memory locations. It is the simplest data structure where each data element can 
+ be accessed directly by only using its index number.
+ * JavaScript Array push()
+           The push() method adds new items to the end of an array. The push() method changes the length of the array. The push() method 
+  returns the new length.
+ * Array pop()
+           pop() is a method in Javascript whose function is to remove the final element from an array and to return that element. 
+ * Array slice()
+           The slice() method returns selected elements in an array, as a new array. The slice() method selects from a given start, up 
+  to a (not inclusive) given end. The slice() method does not change the original array.
+ * Array splice()
+           The splice() method is a built-in method for JavaScript Array objects. It lets you change the content of your array by removing 
+  or replacing existing elements with new ones.
+ * Array unshift()
+           The unshift() method adds new elements to the beginning of an array. The unshift() method overwrites the original array.
+ * Array shift()
+           Javascript Shift is an inbuilt Array method that removes the first element from an array and returns the removed element. 
+ * Array Filter()
+           The filter() method creates a new array with all elements that pass the test implemented by the provided function.
+ * Array map()
+           The map() method in JavaScript creates an array by calling a specific function on each element present in the parent array.
+ * Array find()
+           The find() method returns the value of the first element that passes a test. The find() method executes a function for each array 
+  element. The find() method returns undefined if no elements are found.  
+ * Array reduce()
+           The reduce() method executes a reducer function for array element. The reduce() method returns a single value: the function's 
+  accumulated result. The reduce() method does not execute the function for empty array elements. The reduce() method does not change the 
+  original array.
+ 
+ HTML:
+   * Radio comment in HTML:
+          The <input type="radio"> defines a radio button. Radio buttons are normally presented in radio groups. Only one radio button in 
+  a group can be selected at the same time.
+                   Use a <form> element.
+                   Add three <label> elements with the radio input type, name and value attributes.
+                   Add the required attribute within the first <label>.
+                   Add an <input> with the type “submit”.
+   * Placeholder comment in HTML:
+          The placeholder attribute specifies a short hint that describes the expected value of a input field / textarea. The short hint is 
+  displayed in the field before the user enters a value.A placeholder is a character, word, or string of characters that temporarily takes 
+  the place of the final data.
+   * Label comment in HTML:
+          The <label> tag defines a text label for the <input> tag. The label is a normal text, by clicking which, the user can select the 
+  form element. It facilitates the use of the form, since it is not always convenient to get into form elements with the cursor.
+   
+ HTML- login page:
+       <!DOCTYPE html>    
+<html>    
+<head>    
+    <title>Login Form</title>    
+    <link rel="stylesheet" type="text/css" href="css/style.css">    
+</head>    
+<body>    
+    <h2>Login Page</h2><br>    
+    <div class="login">    
+    <form id="login" method="get" action="login.php">    
+        <label><b>User Name     
+        </b>    
+        </label>    
+        <input type="text" name="Uname" id="Uname" placeholder="Username">    
+        <br><br>    
+        <label><b>Password     
+        </b>    
+        </label>    
+        <input type="Password" name="Pass" id="Pass" placeholder="Password">    
+        <br><br>    
+        <input type="button" name="log" id="log" value="Log In Here">       
+        <br><br>    
+        <input type="checkbox" id="check">    
+        <span>Remember me</span>    
+        <br><br>    
+        Forgot <a href="#">Password</a>    
+    </form>     
+</div>    
+</body>    
+</html>
+
+  Subnet:
+    A subnet mask is a 32-bit number created by setting host bits to all 0s and setting network bits to all 1s. In this way, the subnet mask 
+ separates the IP address into the network and host addresses. The “255” address is always assigned to a broadcast address, and the “0” 
+ address is always assigned to a network address.
+  How to calculate subnet:
+     * Convert to binary.
+     * Calculate the subset address.
+     * Find host range.
+     * Calculate the total number of subsets and the hosts per subnet.
+  Wildcard mask:
+    A wildcard mask allows or denies all the traffic from a network IP address. The wildcard mask tells the router which bits in 
+ the IP address need to match the access list and which do not.
+     The main reason behind this is that unlike a subnet mask in which, binary 1, is equal to a match, and binary 0 is not a match. However, 
+ in the wildcard mask, the opposite is true.Wildcard mask is 32 bits long. It acts inverted, but, with a wildcard mask, the zero bits suggest 
+ that the corresponding bit position should match the same bit position in the IP address. The one bit indicates that the corresponding bit 
+ position does not have to match the IP address’s bit position.
+     Wildcard masks use the below-given rules to match binary 1 and 0:
+       * If the wildcard mask bit 0, then it matches the bit value in the address.
+       * If the wildcard mask bit 1, then you should ignore the corresponding bit value in the address.
+     Wild Card Mask for a Host will always be 0.0.0.0
+ 
+ FRIENDSHIP:
+     Friendship is defined as a bond of affection between two people. People are referred to as best friends if the friendship is really strong. 
+ this relationship is characterized by positive interpersonal qualities such as kindness, generosity, loyalty, and honesty.Friends bring more 
+ happiness into our lives than virtually anything else. Friendships have a huge impact on your mental health and happiness. Good friends relieve 
+ stress, provide comfort and joy, and prevent loneliness and isolation. Developing close friendships can also have a powerful impact on your 
+ physical health.
+
+ BEING FRIENDLY:
+     Kindness – The quality of being friendly, generous, and considerate.Friendly, describes people who are kind, caring, and make you feel 
+ comfortable. You might be new to town, but the people are so friendly that you'll soon feel right at home. Because without friends we are 
+ alone and unhappy, plus friendship makes our lives better, more positive and productive. 
+ 
+
+
+
+
+
+
+
+
