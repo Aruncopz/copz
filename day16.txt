@@ -1,0 +1,127 @@
+                                                              Day16-Tuesday
+       Today I am learning about UI,UX & Wire Frame,Network,Network device,Binary to Decimal,Decimal to Binary,NIC Address,System Communication,
+ Protocal,DNS,DHCP,HTTP,Port Number,TCP & IP Reference Model.
+ 
+ User interface & User Experience: 
+         User interface (UI) design refers to the aesthetic elements by which people interact with a product, such as buttons, icons, 
+ menu bars, typography, colors, and more. User experience (UX) design refers to the experience a user has when interacting with a product.
+ UX (user experience) and UI (user interface) are two interdependent terms. While UI generally deals with the interaction between users and 
+ computer systems, software and applications, UX deals more generally with a user's overall experience with a brand, product or service.User 
+ interface (UI) design focuses on the appearance and usability of a website, mobile application, software program and other interactive 
+ platforms. To succeed as a UI designer, it's important to develop your hard and soft skills, including technical, teamwork and interpersonal 
+ skills.UX Designer is focused on all aspects of a product's development, including design, usability, function, and even branding and 
+ marketing.  Their work touches the entire end-to-end journey of a user's interaction with a product, and includes identifying new 
+ opportunities for the product and business."User experience" encompasses all aspects of the end-user's interaction with the company, its 
+ services, and its products.
+
+ WIRE FRAME:
+         A wireframe is a two-dimensional illustration of a page's interface that specifically focuses on space allocation and prioritization 
+ of content, functionalities available, and intended behaviors. For these reasons, wireframes typically do not include any styling, color, 
+ or graphics.A wireframe is a low-fidelity design layout that serves three simple but exact purposes: It presents the information that will 
+ be displayed on the page. It gives an outline of structure and layout of the page. It conveys the overall direction and description of the 
+ user interface.A  wireframe is a basic, two-dimensional visual representation of a web page, app interface, or product layout.
+
+ NETWORK:
+       A network consists of two or more computers that are linked in order to share resources, exchange files, or allow electronic 
+ communications. The computers on a network may be linked through cables, telephone lines, radio waves, satellites, or infrared light beams.
+   * A computer network is mainly of four types:
+           1) LAN(Local Area Network)
+           2) PAN(Personal Area Network)
+           3) MAN(Metropolitan Area Network)
+           4) WAN(Wide Area Network)
+ NETWORK DEVICE:
+    NETWORK INTERFACE CARD:
+         The network interface card (NIC) or network card is the hardware device most essential to establishing communication between computers.
+         * There are two types NIC they are,
+               1) Ethernet NIC.
+               2) Wireless Network NIC.
+    SWITCH:
+        A switch is used in a wired network to connect to other devices using Ethernet cables. The switch allows each connected device to talk 
+  to the others. Wireless-only networks do not use switches because devices such as wireless routers and adapters communicate directly with 
+  one another.
+     HUB:
+       A network hub is a node that broadcasts data to every computer or Ethernet-based device connected to it.
+     ROUTER:
+       A router is a device that connects two or more packet-switched networks or subnetworks.        
+ 
+ BINARY TO DECIMAL:
+      Binary to decimal conversion is done to convert a number given in the binary number system to its equivalent value in the decimal number 
+ system. A number system is a format to represent numbers in a certain way. The binary number system is used in computers and electronic 
+ systems to represent data and it consists of only two digits which are 0 and 1. The decimal number system is the most commonly used number 
+ system around the world which is easily understandable to people. It consists of digits from 0 to 9.
+
+ Nic Address:
+     Every NIC has a 48-bit unique serial number called a MAC address which is stored in ROM carried on the card. Every computer must have at
+   least one NIC if it wants to connect to the internet. NIC is not the only component that is required to connect to the internet. 
+ 
+ Protocal:
+     protocol, in computer science, a set of rules or procedures for transmitting data between electronic devices, such as computers. In order 
+ for computers to exchange information, there must be a preexisting agreement as to how the information will be structured and how each side 
+ will send and receive it.
+
+ DNS:
+   DNS stands for Domain Name System. DNS is a directory service that provides a mapping between the name of a host on the network and its 
+ numerical address. DNS is required for the functioning of the internet. Each node in a tree has a domain name, and a full domain name is a 
+ sequence of symbols specified by dots.
+ 
+ DHCP:
+   Dynamic Host Configuration Protocol (DHCP) is a network management protocol used to automate the process of configuring devices on 
+ IP networks, thus allowing them to use network services such as DNS, NTP, and any communication protocol based on UDP or TCP.
+
+ HTTP:
+   HTTP represents "Hypertext Transfer Protocol." HTTP is the protocol that can transfer information over the network. It is the Internet 
+ protocol suite method and defines commands and functions used for sharing web page data. HTTP uses a server-client model.
+
+ PORT NUMBER:
+   A port number is always associated with an IP address of a host and the type of transport protocol used for communication. It completes the 
+ destination or origination network address of a message.A port number is a way to identify a specific process to which an internet or other 
+ network message is to be forwarded when it arrives at a server. All network-connected devices come equipped with standardized ports that have 
+ an assigned number.
+ 
+ TCP/IP Reference model:
+   The four layers in the TCP/IP protocol suite are 
+      * Network Layer −
+          It is the lowest layer that is concerned with the physical transmission of data. TCP/IP does not specifically define any protocol 
+  here but supports all the standard protocols.
+      * Internet Layer −
+          It defines the protocols for logical transmission of data over the network. The main protocol in this layer is Internet Protocol (IP) 
+  and it is supported by the protocols ICMP, IGMP, RARP, and ARP.
+      * Transport Layer − 
+          It is responsible for error-free end-to-end delivery of data. The protocols defined here are Transmission Control Protocol (TCP) 
+  and User Datagram Protocol (UDP).
+      *  Application Layer − 
+          This is the topmost layer and defines the interface of host programs with the transport layer services. This layer includes all 
+  high-level protocols.
+ 
+   
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
