@@ -1,0 +1,122 @@
+                                                                 Day17-Wednesday
+ 
+      Today I am learning about Dart process function and declaration & IPv6 , SOHO LAN(Small Office/Home Office) & HTML Script function.A 
+ function declaration tells the compiler about a function's name, return type, and parameters.Variables are declared using the var keyword 
+ followed by variable name that you want to declare.Declare a function by providing its return value, name, and the types for its arguments. 
+ The names of the arguments are optional. A function definition counts as a function declaration.
+     1) Defining a Function
+        A function definition specifies what and how a specific task would be done.
+     2) Calling a Function
+        A function must be called so as to execute it.
+     3) Returning Functions
+        Functions may also return value along with control, back to the caller.
+     4) Parameterized Function
+        Parameters are a mechanism to pass values to functions.
+
+  Example:
+         int add(int n1, int n2){
+         int result;
+         result = n1+n2;
+         return result;
+        }
+ 
+ * Calling function In Dart
+           In Dart, once a function is defined, later you can invoke or call this function inside main() function body. A function can be 
+   invoked simply by its name with argument list if any.
+   Syntax:-
+     fun_name(<argument_list>);
+   Example 1:-
+     add(10,20);
+ 
+ * Dart Passing Arguments to Function
+        In Dart, when a function is invoked it may be provided with some information as per the function prototype is called as argument 
+  (parameter). The number of values passed and the data type of the value passed must match the number of parameters and the data type of 
+  the parameter defined during its declaration . Otherwise, the compiler throws an error.
+         we have two variables num1 and num2 to be passed to add() function when function being called. These arguments are referred to as 
+  actual arguments.Then, the variable n1 and n2 are initialized with the value of num1 and num2 respectively. Here, n1 and n2 are referred 
+  to as formal arguments.
+
+ * Return Value from Function
+         Sometimes we may want a function to return some value to the point it where it is called from. In Dart, there is return keyword 
+   allows a function to return value. The return statement is optional, if not specified the function returns null. There can be only one 
+   return statement in a function.
+      
+      Example:-
+           void main(){ 
+           print("W3Adda - Dart Program To Add Two Numbers Using Function.");
+           var sum = add(10,20);
+           print("Sum Of Given No. Is : ${sum}");
+           }
+           int add(int n1, int n2){
+           int result;
+           result = n1+n2;
+           return result;
+           }
+  
+   IPv6:
+      An IPv6 address is a 128-bit alphanumeric value that identifies an endpoint device in an Internet Protocol Version 6 (IPv6) network.
+  An IPv6 address is represented as eight groups of four hexadecimal digits, each group representing 16 bits The groups are separated by colons. 
+  An example of an IPv6 address is: 2001:0db8:85a3:0000:0000:8a2e:0370:7334. The standards provide flexibility in the representation of IPv6 
+  addresses.
+      IPv6 is the sixth revision to the Internet Protocol and the successor to IPv4. It functions similarly to IPv4 in that it provides the 
+  unique IP addresses necessary for Internet-enabled devices to communicate.
+
+  IPv6 defines three address types:
+        *unicast
+           Identifies an interface of an individual node.
+        *multicast
+          Identifies a group of interfaces, usually on different nodes. Packets that are sent to the multicast address go to all members of 
+      the multicast group.
+        *anycast
+          Identifies a group of interfaces, usually on different nodes. Packets that are sent to the anycast address go to the anycast group 
+       member node that is physically closest to the sender.
+  
+   Most IPv6 addresses do not occupy all of their possible 128 bits. This condition results in fields that are padded with zeros or contain 
+   only zeros.
+
+   SOHO LAN(Small office/Home office):
+        SOHO is that it is small in both the size of the office space and the number of employees. SOHO is the smallest of the small businesses.
+    The self-employed people and sometimes by a small group people up to 1-5 people are privately own and operate it.
+
+    SOHO is usually associated with small, private business or self-employed individuals who are running their own office from home. It is 
+  also often described as being small in both size of the office and number of employees. And just like the majority of today’s businesses, 
+  employees use PCs in a local area network (LAN) and have access to the internet.Many small offices will have a local file server where they 
+  can share files amongst each other quickly over the network. These are sometimes called “the server” by the users.
+
+   Small ethernet only SOHO LAN:
+        One of the most common local-area deployments is the Small-Office / Home-Office LAN (SOHO). It is a small computer network usually 
+  built of one Ethernet switch, one router, and one wireless access point. The LAN uses Ethernet cables to connect different end-devices to 
+  one of the switch ports.
+        
+   SOHO Single Building:
+        The term small office/home office (SOHO) refers to a small business that is often run out of small office spaces, homes, or even 
+  virtually. These businesses are commonly considered microenterprises. Their owners are commonly self-employed who don't need large office 
+  spaces to conduct their day-to-day operations. Most use small office spaces or run their businesses from home. As such, SOHOs generally 
+  employ fewer than 10 people.
+ 
+   HTML SCRIPT FUNCTION:
+         The HTML <script> tag is used to define a client-side script (JavaScript). The <script> element either contains script statements, 
+   or it points to an external script file through the src attribute.A script is a program or sequence of instructions that is interpreted 
+   or carried out by another program rather than by the computer process.
+
+   Step 1: Firstly, we have to type the script tag between the starting and closing of <head> tag just after the title tag. And then, type 
+   the JavaScript function. 
+   Step 2: After then, we have to call the javaScript function in the Html code for displaying the information or data on the web page.
+   
+ STEP-1:
+<Head>      
+<Title>     
+Call a JavaScript function  
+</Title>  
+<script type = "text/javascript">  
+         function msgprint() {  
+         }  
+</script>  
+</Head> 
+  
+ STEP-2:
+   <form>  
+         <input type = "button" onclick = "msgprint()" value = "Message Print">   
+      </form>    
+        
+
