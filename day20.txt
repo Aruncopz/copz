@@ -1,0 +1,71 @@
+                                                            Day20-Monday
+         Today I am learning about UI & UX Design, Spanning tree protocal,Address resolution protocal, Access control unit, Power over ethernet,
+  Cisco WLC, Link layer discovery protocal.User Experience Usability is finding the best match between a user’s needs and aproduct’s use While 
+  this is a specialty by itself, a computer scientist/developer.
+  can grow an appreciation for UX, which affects
+            1. Functionality
+            2. System Or ganization and Structure
+            3. Interactions and Look and Feel
+            4. Access
+   User interface The point of interaction or communication between a computer and another entity, such as a printer or human operator. 
+   Information flows in one direction or two.The layout of an application's graphic, spoken, touch, or textual controls in conjunction 
+   with the way the application responds to user activity.
+       Figma is a vector graphics editor and prototyping tool that is often used for UI design.Figma has a wireframe template to get you 
+   started. Figma is browser-based, so sharing your wireframes is as easy as sharing a link.The process of user experience and user interface. 
+   This will be done in three stages:
+      1) Wireframe
+          Sketching the layout
+      2) Prototype
+          Preparing the user interface from the wireframe
+      3)Design in Figma
+          Completing the design from the prototype with color, image.
+    
+   Spanning tree protocal:
+        panning Tree Protocol (STP) is a network protocol designed to prevent layer 2 loops. STP blocks some ports on switches with redundant 
+   links to prevent broadcast storms and ensure loop-free topology.Monitoring all link of network.Spanning-tree protocols address both of these 
+   issues because they provide link redundancy while simultaneously preventing undesirable loops.
+
+   Address resolution protocal:
+        Address Resolution Protocol (ARP) is a communication protocol used to find the MAC (Media Access Control) address of a device from its 
+   IP address. This protocol is used when a device wants to communicate with another device on a Local Area Network or Ethernet.ARP broadcasts 
+   a request packet to all the machines on the LAN and asks if any of the machines are using that particular IP address. ARP is the protocol 
+   used to associate the IP address to a MAC address.ARP is necessary because the underlying ethernet hardware communicates using ethernet 
+   addresses, not IP addresses. 
+
+   Access control unit:
+       Access control systems are the electronic systems that are designed to control through a network and they should have an access to a 
+   network. Access Control System recognizes authenticates entry of a person to enter into the premise thereby giving complete protection 
+   ensuring security with the system.Access control systems are digital networks that electronically control entry into and out of a designated 
+   area. The main elements of an access control system are the tag, tag reader, access control panel, and lock. 
+    
+   Access control list:
+       An access control list (ACL) is a list of rules that specifies which users or systems are granted or denied access to a particular 
+   object or system resource. Access control lists are also installed in routers or switches, where they act as filters, managing which 
+   traffic can access the network.
+     Standard ACL:
+        * Based on source IP
+        * Both direction work
+        * All service
+     Extended ACL:
+        * Both IP & PORTS
+        * Single direction
+        * Single service
+
+   Power over ethernet:
+       Power over Ethernet (PoE) is a technology for delivering DC power to devices over copper Ethernet cabling, without separate power 
+   supplies.Power over Ethernet (PoE) is technology that passes electric power over twisted-pair Ethernet cable to powered devices (PD), 
+   such as wireless access points, IP cameras, and VoIP phones in addition to the data that cable usually carries. It enables one RJ45 cable 
+   to provide both data connection and electric power to PDs instead of having a separate cable for each.
+
+   CISCO WLC:
+       A wireless LAN controller (WLC) is a network component that manages wireless network access points and allows wireless devices to 
+   connect to the network.The main function of a traditional wireless LAN controller (WLC ) is to configure wireless access points (AP) 
+   that connect to it locally.The Cisco Wireless Controller (WLC) series devices provide a single solution to configure, manage and support
+   corporate wireless networks, regardless of their size and locations.
+
+   Link layer discovery protocal:
+       The Link Layer Discovery Protocol (LLDP) is a vendor-neutral link layer protocol used by network devices for advertising their 
+   identity, capabilities, and neighbors on a local area network based on IEEE 802 technology, principally wired Ethernet.Link Layer Discovery 
+   Protocol (LLDP) is a vendor-neutral link layer protocol used by network devices to advertise the attributes of a device. These attributes 
+   contain type, length, and value descriptions and are referred to as TLVs. LLDP supported devices use TLVs to receive and send information 
+   to neighboring devices.
