@@ -1,0 +1,69 @@
+                                                              Day21-Tuesday
+     Today I am learning about how to configure two router in cisco packettracer & Basic flutter.In this network, 2 router and 2 PCs are used. 
+  Computers are connected with routers using a copper straight-through cable. After forming the network, to check network connectivity a 
+  simple PDU is transferred from PC0 to PC1. The network simulation status is successful. From this network, it can be observed that the 
+  router handles data transfers between multiple devices.  
+  
+  *Step-1(Configuring Router1):
+
+   * Select the router and Open CLI.
+   * Press ENTER to start configuring Router1.
+   * Type enable to activate the privileged mode.
+   * Type config t(configure terminal) to access the configuration menu.
+   * Type no shutdown to finish.
+  
+  Router1 Command Line Interface:
+      * Router>enable
+      * Router#config t
+      * Router(config)#interface FastEthernet0/0
+      * Router(config-if)#ip address 192.168.10.1 255.255.255.0
+      * Router(config-if)#no shutdown
+      * Router(config-if)#
+      * Router(config-if)#interface Serial0/1
+      * Router(config-if)#ip address 192.168.20.1 255.255.255.0
+      * Router(config-if)#no shutdown
+
+  *Step-2(Configuring Router2):
+   
+       * Select the router and Open CLI.
+       * Press ENTER to start configuring Router2.
+       * Type enable to activate the privileged mode.
+       * Type config t(configure terminal) to access the configuration menu.
+       * Type no shutdown to finish.
+
+   Router2 Command Line Interface:
+        * Router>enable
+        * Router#config t
+        * Router(config)#interface FastEthernet0/0
+        * Router(config-if)#ip address 192.168.30.1 255.255.254.0
+        * Router(config-if)#no shutdown
+        * Router(config-if)#
+        * Router(config-if)#interface Serial0/1
+        * Router(config-if)#ip address 192.168.40.1 255.255.254.0
+        * Router(config-if)#no shutdown
+     
+   *Step-3(Configuring PCs):
+
+        * Assign IP Addresses to every PC in the network.
+        * Select the PC, Go to the desktop and select IP Configuration and assign an IP address, Default gateway, Subnet Mask
+        * Assign the default gateway of PC0 as 192.168.10.1.
+        * Assign the default gateway of PC1 as 192.168.30.1. Finally ping command used to connect two pcu's.
+
+    In between these works we had a financial discipline session by Mr gokul, who was met by abraham anna, he is a charted accountant by 
+  profession, he started his session by 12 pm, he was not prepared for a speech which was a good,as he could speak his heart out, he gave us 
+  an idea about where to spend, where not to spend, keep a track of money that we spend and buy assets instead of liabilities, he also 
+  discussed about the book rich dad poor dad, and made clear that investing in lands is way better than buying property or appartements, he 
+  also discussed about buying gold jewellery,which does not give returns as that of land, and he also gave an example from his life that was, 
+  his dad bought a land in his name few years back instead of getting him a bike and the value of land now is almost equal to 45lakhs, on the 
+  other hand if his father would have bought him a bike he would have to sell it in less than half the price he bought, he also mentioned 
+  investing in mutual funds and health insurances which are very important, as we can claim them on emergency situation, the hospital bills 
+  now a days are far beyound what we expect, so if we invest a little bit of our savings in these health insurances we can reduce the amount of 
+  tax we pay to our government and secure our family and ourselves when in need, it was such an interactive session we gained a lot of 
+  informations which are mentioned above and the session was over by 1 pm.
+
+  Flutter:
+   * to flap the wings rapidly butterflies fluttering among the flowers.* to move with quick wavering or flapping motions a sail fluttering 
+  in the wind. * to vibrate in irregular spasms his heart fluttered.* to move about or behave in an agitated aimless manner She nervously 
+  fluttered around the office.
+   
+   
