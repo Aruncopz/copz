@@ -1,0 +1,89 @@
+                                                              Day22-Wednesday
+    Today I am learned about how to communicate between two networks using protocal on cisco packet tracer, Introduction of flutter.
+   Configuring steps: 
+        In this configuring using two pcu's , two swiches , three routers. All networks connected eachother with the help of ethernet cable.
+   In this network, a router and 2 PCs are used. Computers are connected with routers using a copper straight-through cable. After forming 
+   the network, to check network connectivity a simple PDU is transferred from PC0 to PC1. The network simulation status is successful. 
+   From this network, it can be observed that the router handles data transfers between multiple devices.    
+        Step-1(Configuring PCs):
+         * Assign IP Addresses to every PC in the network.
+         * Select the PC, Go to the desktop and select IP Configuration and assign an IP address, Default gateway, Subnet Mask
+         * Assign the default gateway of PC0 as 192.168.10.1.
+         * Assign the default gateway of PC1 as 192.168.20.1.
+        Step-2(Connecting PCs with Router):
+         * Connect FastEthernet0 port of PC0 with FastEthernet0/0 port of Router1 using a copper straight-through cable.
+         * Connect FastEthernet0 port of PC1 with FastEthernet0/1 port of Router1 using a copper straight-through cable.  
+        Step-3(Configuring Router1):
+         * Select the router and Open CLI.
+         * Press ENTER to start configuring Router1.
+         * Type enable to activate the privileged mode.
+         * Type config t(configure terminal) to access the configuration menu.
+         * Configure interfaces of Router1:
+            • Type interface FastEthernet0/0 to access FastEthernet0/0 and Configure the FastEthernet0/0 interface with the IP address 
+         192.168.10.1 and Subnet mask 255.255.255.0.
+         * Configure router-1 serial port & router-3 serial port.
+         * Type no shutdown to finish.
+        Step-4(Configuring router2)            
+           * Select the router and Open CLI.
+           * Press ENTER to start configuring Router2.
+           * Type enable to activate the privileged mode.
+           * Type config t(configure terminal) to access the configuration menu.
+           * Configure interfaces of Router2:
+               Type interface FastEthernet0/1 to access GigabitEthernet0/0 and Configure the FastEthernet0/1 interface with IP address 
+           192.168.20.1 and Subnet mask 255.255.255.0.
+            * Configure router-2 serial port & router-1 serial port.
+            * Type no shutdown to finish.
+        Step-5(Configuring router3)
+           * Configure router-3 serial port & router-2 serial port.
+        Step-6:
+           * Apply Open Shortest Path First (OSPF) protocal on three routers.
+   
+    FLUTTER:
+        Widgets:
+          The core concept of the Flutter framework is In Flutter, Everything is a widget. Widgets are basically user interface components 
+    used to create the user interface of the application.
+        Basic's of flutter:
+         * MyApp is the user created widget and it is build using the Flutter native widget, MaterialApp.
+
+         * MaterialApp has a home property to specify the user interface of the home page, which is again a user created widget, MyHomePage.
+
+         * MyHomePage is build using another flutter native widget, Scaffold
+
+         * Scaffold has two properties – body and appBar
+
+         * body is used to specify its main user interface and appBar is used to specify its header user interface
+
+         * Header UI is build using flutter native widget, AppBar and Body UI is build using Center widget.
+
+         * The Center widget has a property, Child, which refers the actual content and it is build using Text widget.
+      
+      Layout widgets can be grouped into two distinct category based on its child:
+         * Widget supporting a single child.
+         * Widget supporting multiple child.
+ 
+         Padding − 
+           Used to arrange its child widget by the given padding. Here, padding can be provided by EdgeInsets class.
+
+         Align − 
+           Align its child widget within itself using the value of alignment property. The value for alignment property can be provided by 
+         FractionalOffset class.
+  
+         Container − 
+           Generic, single child, box based container widget with alignment, padding, border and margin along with rich styling features.
+
+         Center − 
+           Simple, Single child container widget, which centers its child widget.
+
+         Stateless Widget - 
+           The widgets whose state can not be altered once they are built are called stateless widgets. These widgets are immutable once they 
+          are built i.e any amount of change in the variables, icons, buttons, or retrieving data can not change the state of the app.
+         
+          Stateful Widget -
+            Stateful Widgets are dynamic widgets. They can be updated during runtime based on user action or data change. Stateful Widgets 
+           have an internal state and can re-render if the input data changes or if Widget's state changes. For Example: Checkbox, Radio Button, 
+           Slider are Stateful Widgets.
+
+         
+
+
+
