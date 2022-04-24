@@ -1,0 +1,78 @@
+                                                             DAY24-FRIDAY
+        Today me and my projectmates developed six bits game projects & then developed the application.this summary contains project code & 
+  codes definition.The Ist step is too create header file,The <head> element is a container for metadata and is placed between the <html> tag 
+  and the <body> tag.
+      <head>
+        <title>Track Twin</title>
+        <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0" charset="utf-8" />
+        <link type="text/css" rel="stylesheet" href="./assets/style.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
+     </head>    
+        Then Metadata is data about the HTML document. Metadata  is not displayed.Metadata typically define the document title, character set, 
+  styles, scripts, and other meta information. user-scalable=no , it means the website is not allowing the user to zoom in or zoom out.The 
+  initial-scale=1.0 part sets the initial zoom level when the page is first loaded by the browser.The rel attribute specifies the relationship 
+  between the current document and the linked document.Only used if the href attribute is present.The crossorigin attribute sets the mode of 
+  the request to an HTTP CORS Request. Web pages often make requests to load resources on other servers. Here is where CORS comes in.
+   
+  <body>
+    <h1>Six Bits</h1>
+    <h2>Track Twin</h2>
+    </body>
+    
+    <body>:
+      The <body> tag defines the document's body.The <body> element contains all the contents of an HTML document, such as headings, 
+    paragraphs, images, hyperlinks, tables, lists.
+    <div>:
+      The <div> tag defines a division or a section in an HTML document.The <div> tag is used as a container for HTML elements - which is 
+    then styled with CSS or manipulated with JavaScript.The <div> tag is easily styled by using the class or id attribute.The div tag is used 
+    in HTML to make divisions of content in the web page like (text, images, header, footer, navigation bar, etc). Div tag has both open(<div>) 
+    and closing (</div>) tag and it is mandatory to close the tag. The Div is the most usable tag in web development because it helps us to 
+   separate out data in the web page and we can create a particular section for particular data or function in the web pages.
+    
+ <label>Select Pattern</label>    
+      
+     <label>:
+      Users who have difficulty clicking on very small regions (such as checkboxes) - because when a user clicks the text within the <label> 
+    element, it toggles the input (this increases the hit area).
+ 
+ <button class="play_button">Start Game</button>   
+  
+    <button>:
+      The <button> tag defines a clickable button.Inside a <button> element you can put text (and tags like <i>, <b>, <strong>, <br>, <img>, 
+    etc.). That is not possible with a button created with the <input> element!
+    
+    <p>:
+      The <p> tag defines a paragraph.Browsers automatically add a single blank line before and after each <p> element.
+ 
+ <script defer src="./assets/script.js"></script>   
+    
+    <script>:
+      The <script> tag is used to embed a client-side script .The <script> element either contains scripting statements, or it points to 
+   an external script file through the src attribute.
+ 
+ <p class="time">Time:<span></span>s</p>   
+    <span> 
+      The <span> tag is an inline container used to mark up a part of a text, or a part of a document.The <span> tag is easily styled 
+   byCSS or manipulated with JavaScript using the class or id attribute.The <span> tag is much like the <div> element, but <div> is a 
+  block-level element and <span> is an inline element.The span tag is a paired tag means it has both open(<) and closing (>) tags, and it is 
+  mandatory to close the tag. The span tag is used for the grouping of inline elements & this tag does not make any visual change by itself. 
+  span is very similar to the div tag, but div is a block-level tag and span is an inline tag.
+    Time:
+      The <time> tag defines a specific time.HTML element represents a specific period in time.
+    Flip:
+      The flipping effect creates a mirror image of an element. You can flip an element both horizontally and vertically.
+    Refresh:
+      The trick to reloading the page is to force the browser to not look into the cache, but rather to again make a connection to the Web and 
+  bring up the document from the server. 
+    Class:
+      The class attribute specifies one or more classnames for an element.The class attribute is mostly used to point to a class in a 
+  style sheet. However, it can also be used by a JavaScript to make changes to HTML elements with a specified class.The HTML class attribute
+  specifies one or more class names for an element. Classes are used by CSS and JavaScript to select and access specific elements. The class 
+  attribute can be used on any HTML element. 
+    Section:
+      The <section> tag defines a section in a document. Browser Support. The numbers in the table specify the first browser version that 
+  fully supports the element.Section tag defines the section of documents such as chapters, headers, footers or any other sections. The 
+  section tag divides the content into section and subsections. The section tag is used when requirements of two headers or footers or any 
+  other section of documents needed.
