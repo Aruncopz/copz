@@ -1,0 +1,115 @@
+                                                         DAY_25 - MONDAY
+    Today I am learned about firebase, css basic commands, Vlan configuration.Firebase is a Google-backed application development software 
+ that enables developers to develop iOS, Android and Web apps. Firebase provides tools for tracking analytics, reporting and fixing app 
+ crashes, creating marketing and product experiment.Firebase Realtime Database uses data synchronization—every time data changes, any 
+ connected device receives that update within milliseconds. Provide collaborative and immersive experiences without thinking about 
+ networking code.Firebase apps remain responsive even when offline because the Firebase Realtime Database SDK persists your data to disk. 
+ Once connectivity is reestablished, the client device receives any changes it missed, synchronizing it with the current server state.
+ The Realtime Database provides a flexible, expression-based rules language, called Firebase Realtime Database Security Rules, to define 
+ how your data should be structured and when data can be read from or written to.Firebase Authentication, developers can define who has 
+ access to what data, and how they can access it.
+   Create a Database(Web App):
+     * Navigate to the Realtime Database section of the Firebase console. You'll be prompted to select an existing Firebase project. 
+   *Select a starting mode for your Firebase Security Rules:
+      Test mode:
+         Good for getting started with the mobile and web client libraries, but allows anyone to read and overwrite your data.
+      Locked mode:
+         Denies all reads and writes from mobile and web clients. Your authenticated application servers can still access your database.
+      Choose a location for the database:
+         Depending on the location of the database, the URL for the new database will be in one of the following forms:
+            Ex;DATABASE_NAME.firebaseio.com
+      Configure Realtime Database:
+         The Realtime Database provides a declarative rules language that allows you to define how your data should be structured, how it 
+       should be indexed, and when your data can be read from and written to.
+   *Structure of Database:
+         Building a properly structured database requires quite a bit of forethought. Most importantly, you need to plan for how data is going 
+       to be saved and later retrieved to make that process as easy as possible.
+   *Realtime Database emulator involves just a few steps:
+      1) Adding a line of code to your app's test config to connect to the emulator.
+      2) From the root of your local project directory, running firebase emulators:start.
+      3) Making calls from your app's prototype code using a Realtime Database platform SDK as usual, or using the Realtime Database REST API.
+   *Offline Capabilities in JavaScript 
+        Firebase applications work even if your app loses its network connection temporarily. We provide several tools for monitoring presence 
+    and synchronizing local state with server state, which are introduced in this document.
+
+   Basic CSS Commands used in group project(six bits):
+     align-content:      
+       The align-content property modifies the behavior of the flex-wrap property. It is similar to align-items, but instead of aligning 
+   flex items, it aligns flex lines.
+     background-color:
+       The background-color property sets the background color of an element.The background of an element is the total size of the element, 
+   including padding and border (but not the margin).
+     background-image:
+       The background-image property sets one or more background images for an element.default a background-image is placed at the top-left 
+   corner of an element, and repeated both vertically and horizontally.
+     background-origin:
+       The background-origin property specifies the origin position (the background positioning area) of a background image.
+     cursor:
+       The cursor property specifies the mouse cursor to be displayed when pointing over an element.
+     flex:
+       The flex property sets the flexible length on flexible items.
+     font:
+       The font-size and font-family values are required. If one of the other values is missing, their default value are used.
+     overflow:
+       The overflow property specifies what should happen if content overflows an element's box.This property specifies whether to clip 
+      content or to add scrollbars when an element's content is too big to fit in a specified area.
+     padding:
+       An element's padding is the space between its content and its border.
+     text-align:
+       The text-align property specifies the horizontal alignment of text in an element.
+     
+   Virtual LAN:
+      Allow network administrators to automatically limit access to a specified group of users by dividing workstations into different 
+   isolated LAN segments.A broadcast domain is a network segment in which if a device broadcast a packet then all the devices in the same
+   broadcast domain will receive it. The devices in the same broadcast domain will receive all the broadcast packets but it is limited to 
+   switches only as routers don’t forward out the broadcast packet. To forward out the packets to different VLAN (from one VLAN to another) 
+   or broadcast domain, inter Vlan routing is needed.
+    
+   Configuration – 
+      We can simply create VLANs by simply assigning the vlan-id and Vlan name & each computer have separate ip address.For switch-1, 
+                #switch1(config)#vlan 10
+                #switch1(config-vlan)#name V10   
+                #switch1(config)#vlan 11
+                #switch1(config-vlan)#name V11
+                #switch1(config)#vlan 12
+                #switch1(config-vlan)#name V12
+        Now, we assign Vlan to the switch ports.(e.g) 
+                Switch1(config)#int fa0/1-5
+                Switch1(config-if)#switchport mode access
+                Switch1(config-if)#switchport access Vlan 10
+        
+                Switch1(config)#int range fa0/6-10
+                Switch1(config-if)#switchport mode access
+                Switch1(config-if) #switchport access Vlan 11
+      
+                Switch1(config)#int range fa0/11-15
+                Switch1(config-if)#switchport mode access
+                Switch1(config-if) #switchport access Vlan 12
+
+       Simply create VLANs by simply assigning the vlan-id and Vlan name & each computer have separate ip address.For switch-2,
+                  #switch2(config)#vlan 10
+                  #switch2(config-vlan)#name V10
+                  #switch2(config)#vlan 11
+                  #switch2(config-vlan)#name V11
+                  #switch2(config)#vlan 12
+                  #switch2(config-vlan)#name V12
+          Now, we assign Vlan to the switch ports.(e.g)
+                  Switch2(config)#int fa0/1-5
+                  Switch2(config-if)#switchport mode access
+                  Switch2(config-if)#switchport access Vlan 10
+       
+                  Switch2(config)#int range fa0/6-10
+                  Switch2(config-if)#switchport mode access
+                  Switch2(config-if) #switchport access Vlan 11 
+                  Switch2(config)#int range fa0/11-15
+                  Switch2(config-if)#switchport mode access
+                  Switch2(config-if) #switchport access Vlan 12
+          Now, we configure two switch's:
+                  Switch1(config)#int fa0/16
+                  Switch1(config-if)#switch mode trunk
+                  Switch1(config-if)#switch nonegotiate
+                
+                  Switch2(config)#int fa0/16
+                  Switch2(config-if)#switch mode trunk
+                  Switch2(config-if)#switch nonegotiate
+
