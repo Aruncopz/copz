@@ -1,0 +1,81 @@
+                                                             Day27-Wednesday
+
+   Today I am learned about javascript function's, firebase & flutter function's.JavaScript is a dynamic programming language that's used for 
+ web development, in web applications, for game development, and lots more. It allows you to implement dynamic features on web pages that 
+ cannot be done with only HTML and CSS.Text-based programming language used both on the client-side and server-side that allows you to make 
+ web pages interactive. Where HTML and CSS are languages that give structure and style to web pages, JavaScript gives web pages interactive 
+ elements that engage a user.
+        Used to develop interactive web applications. JavaScript can power featured like interactive images, carousels, and forms. The 
+ language can be used with back-end frameworks like Node js.
+  
+   JavaScript statements are composed of Values, Operators, Expressions, Keywords, and Comments.
+      JavaScript Values:
+          The JavaScript syntax defines two types of values: Fixed values and variable values.Fixed values are called literals. Variable 
+   values are called variables.
+          Numbers are written with or without decimals.Strings are text, written within double or single quotes.
+
+   JavaScript Variables:
+          variables are used to store data values.JavaScript uses the var keyword to declare variables.An equal sign is used to assign 
+   values to variables.JavaScript uses an assignment operator ( = ) to assign values to variables.JavaScript uses arithmetic operators 
+   ( + - *  / ) to compute values.
+ 
+   JavaScript Expressions:
+          An expression is a combination of values, variables, and operators, which computes to a value.The computation is called an evaluation.
+   Any unit of code that can be evaluated to a value is an expression . Since expressions produce values, they can appear anywhere in a 
+   program where JavaScript expects a value such as the arguments of a function invocation.
+
+   Identifiers are names;In JavaScript, identifiers are used to name variables and keywords, and functions, and labels.The rules for legal 
+   names are much the same in most programming languages.In JavaScript, the first character must be a letter, an underscore (_), or a dollar 
+   sign ($).Subsequent characters may be letters, digits, underscores, or dollar signs. 
+
+       One of many HTML methods is getElementById().This example uses the method to "find" an HTML element (with id="demo"), and changes 
+   the element content (innerHTML) to "hi"    
+     <html>
+     <body>
+
+     <h1>What</h1>
+     <p id="demo">Hi Arun</p>
+     <button type="button"
+     onclick="document.getElementById('demo').innerHTML = 'bye'">hi</button>
+
+    </body>
+    </html>
+     
+     The statements are executed, one by one, in the same order as they are written.In this example x, y, and z are given values, and 
+  finally z is displayedWhen separated by semicolons, multiple statements on one line are allowed:
+  <html>
+  <body>
+  <p>hi</p>
+  <p id="demo"></p>
+  <script>
+  var x = 5;
+  var y = 6;
+  var z = x + y;
+  document.getElementById("demo").innerHTML = z;
+  </script>
+
+  </body>
+  </html>
+ 
+   FIREBASE:
+       The Firebase Realtime Database lets you build rich, collaborative applications by allowing secure access to the database directly from 
+   client-side code. Data is persisted locally, and even while offline, realtime events continue to fire, giving the end user a responsive 
+   experience.Firebase authentication and analytics are the most widely used. Firebase has evolved to become a platform that allows mobile 
+   and web front-end developers to develop complete applications without the need for back-end servers.Google Firebase is a Google-backed 
+   application development software that enables developers to develop iOS, Android and Web apps. Firebase provides tools for tracking 
+   analytics, reporting and fixing app crashes, creating marketing and product experiment.
+
+     Link web app to Hosting site:
+         Link a Firebase Web App to a Firebase Hosting site.  Each Hosting site can only be linked to a single Firebase Web App.You may need 
+    to link your web app to your Hosting site in the Project settings if you chose not to set up Hosting when you registered your web app 
+    with your Firebase project.1)Sign in to Firebase, then open your project.2) Click the Settings icon, then select Project settings.
+    3) In the Your apps card, select the web app that you want to link to a Hosting site.4) Click Link to Firebase Hosting site.
+    5) Select a Hosting site to link to, then click Link.
+     Unlink a Hosting site:
+        In the Your apps card, select the web app that you want to unlink from a Hosting site.Click the overflow icon next to the name of 
+     the linked-to site, then select Unlink.
+ 
+     Firebase Real-time Databases use WebSockets to keep an eye on data changes on the server side and those changes are reflected in 
+   real time on the client side.
+
+      
