@@ -1,0 +1,122 @@
+                                                              Day26-Tuesday
+    Today I am learned about HTML Position's, Sidebar in css, Personal Computer.The position property specifies the type of positioning method 
+  used for an element (static, relative, fixed, absolute or sticky).Elements are then positioned using the top, bottom, left, and right 
+  properties.These properties will not work unless the position property is set first. They also work differently depending on the 
+  position value.
+    Static position:
+       An element with position: static; is not positioned in any special way; it is always positioned according to the normal flow of the page.
+  Static positioned elements are not affected by the top, bottom, left, and right properties.Static position structure;
+        <html>
+        <head>
+        <style>
+           div.static {
+           position: static;
+           border: 3px blue;
+         }
+         </style>
+         </head>
+         <body>
+         <h2></h2>
+         <p></p>
+         <div class="static">
+         </div>
+
+         </body>
+         </html>
+ 
+    Relative position:
+         The top, right, bottom, and left properties of a relatively-positioned element will cause it to be adjusted away from its normal 
+  position. Other content will not be adjusted to fit into any gap left by the element. Relative position structure;
+         div.relative {
+         position: relative;
+         left: 30px;
+         border: 3px green;
+         }
+
+    Fixed position:
+         Positioned relative to the viewport, which means it always stays in the same place even if the page is scrolled. The top, right, 
+  bottom, and left properties are used to position the element.A fixed element does not leave a gap in the page where it would normally 
+  have been located.
+          div.fixed {
+          position: fixed;
+          bottom: 0;
+          right: 0;
+          width: 300px;
+          border: 3px red;
+          } 
+      
+    Absolute position:
+           absolutely positioned element is an element whose computed position value is absolute or fixed . The top , right , bottom , and 
+   left properties specify offsets from the edges of the element's containing block.
+         div.absolute {
+         position: absolute;
+         top: 80px;
+         width: 200px;
+         border: 3px brown;
+         }   
+    
+    Sticky position:
+          Sticky positioning can be thought of as a hybrid of relative and fixed positioning. A stickily positioned element is treated as 
+    relatively positioned until it crosses a specified threshold, at which point it is treated as fixed until it reaches the boundary of its 
+    parent.
+
+         div.sticky {
+         position: sticky;
+         top: 0;
+         background-color: green;
+         border: 2px pink;
+         }
+
+    Side bar:
+     Sidebar is usually used to display information that is not a part of the main content. Traditionally it’s a vertical column on the left 
+   or right side of the website, with modern CSS its possible to have this in a variety of shapes and even hide it in a modal window.Basic 
+   structure of sidebar,   
+       
+     <body>
+     <div class="sidebar">
+     <div>mahi</div>
+     <div>copz</div>
+     <div>arun</div>
+     </div>
+     <div class="body-text">
+     </div>
+     </body>
+
+   Personal Computer:
+     l computer is a small computer with a microprocessor, designed for use by an individual. An example of personal computers are desktop 
+   computer, Workstation computer, Laptop,Notebook computer, Tablet computer, Handheld computer, Smart phone.
+
+   Desktop computer:
+       A desktop computer is a personal computing device designed to fit on top of a typical office desk. It houses the physical hardware that 
+   makes a computer run and connects to input devices such as the monitor, keyboard and mouse users interact with.desk's top that gives the 
+   second use of the word “desktop” its meaning. A desktop computer means one that sits at your desk, as opposed to one that sits on your lap, 
+   called a laptop.Applications can be considered a local version of a service or web applications.
+
+   Workstation computer:
+      workstation, a high-performance computer system that is basically designed for a single user and has advanced graphics capabilities, 
+   large storage capacity, and a powerful central processing unit. A desktop computer, normally more powerful than a normal PC and often 
+   dedicated to a specific task, such as graphics.Common uses for workstations include computer-aided design (CAD), 3D graphics and 
+   animation, video and audio production, weather modeling, and other simulations and scientific work.
+
+   Laptop:
+       All-in-one computers are small and portable, running for hours on batteries or AC power on one charge and featuring an LED/LCD screen. 
+   Other features of the laptop include the built-in monitor, keyboard, and touchpad or trackpad.Low storage. Also, back up is recommended 
+   for data on laptops, due to data loss by theft, destruction of device and so on.Uses batteries or AC Power that can be recharged, operates 
+   on main power as well.Small size.
+
+   Notebook computer:
+      A notebook computer is a personal computer designed to be easily portable and capable of being run on batteries and electrical current, 
+   if needed. computer designed specifically for portability and to be operated for extended periods of time either with or without a direct 
+   connection to an AC power source. Notebooks must utilize an integrated computer display and be capable of operation off of an integrated 
+   battery or other portable power source.
+
+   Tablet computer:
+      Tablet computer, computer that is intermediate in size between a laptop computer and a smartphone. Early tablet computers used either a 
+   keyboard or a stylus to input information, but these methods were subsequently displaced by touch screens.
+
+   Smartphones:
+      A smartphone is a cellular telephone with an integrated computer and other features not originally associated with telephones such as an 
+   operating system, web browsing, and the ability to run software applications.A smartphone is a mobile phone that not only functions as a 
+   telephone but also as a miniature computer, featuring messaging, internet access, camera, GPS, etc. Smartphones generally use touchscreen 
+   technology.
+
